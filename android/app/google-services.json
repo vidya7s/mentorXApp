@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671333842660",
+    "project_id": "mentorx-49538",
+    "storage_bucket": "mentorx-49538.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671333842660:android:0c34d3855b95fa4d7676f1",
+        "android_client_info": {
+          "package_name": "com.example.mentorx_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU2WYB2ma_kNhOZ5Uej0MvOECvQ4gUiPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+name: mentorx_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-210.4.beta <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
+  google_nav_bar: ^5.0.3
+  curved_navigation_bar: ^1.0.3
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts:
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.12.1
+  shared_preferences: ^2.2.1
+  # cloud_firestore: 4.9.1
+  cloud_firestore: ^4.12.2
+  uuid: ^3.0.7
+  fluttertoast: ^8.2.2
+  cached_network_image: ^3.3.0
+
+  fluttericon:  ^2.0.0
+  url_launcher: ^6.2.1
+  firebase_storage: ^11.4.1
+  flutter_inappwebview: ^5.3.2
+  intl: ^0.19.0
+  google_maps_place_picker: ^2.1.0-nullsafety.3
+  geolocator: ^7.7.1
+  google_maps_flutter: ^2.5.0
+  get_it: ^7.6.4
+  email_auth: ^1.0.0
+  web_socket_channel: ^2.4.0
+  email_otp: ^2.0.1
+  image_cropper: ^4.0.1
+  image_picker: ^1.0.5
+
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/wallpaper.jpg 
+    - assets/forgotPwd.png
+    - assets/event1.png
+    - assets/event2.jpg
+    - assets/event3.png
+
+
